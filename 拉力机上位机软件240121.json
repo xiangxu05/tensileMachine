@@ -1,0 +1,27 @@
+[
+    {
+        "id": "8f92310d0a272d19",
+        "type": "switch",
+        "z": "132b7f57ea5d51b3",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 630,
+        "y": 800,
+        "wires": [
+            [
+                "fe639469562ffe2f"
+            ]
+        ]
+    }
+]
